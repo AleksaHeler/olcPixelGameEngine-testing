@@ -5,5 +5,6 @@ all:
 clean:
 	rm -f main.o game
 
+# 'vblank_mode=0' is used so we dont sync framerate to monitor refreshrate (unlimited frames)
 run: all
 	./game
